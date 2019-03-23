@@ -1,15 +1,15 @@
 /**
  * db pass myAdmin1 user myAdmin
  * collection todos
- * URL mongodb://<dbuser>:<dbpassword>@ds147225.mlab.com:47225/testapp
+ * mongodb://<dbuser>:<dbpassword>@ds251804.mlab.com:51804/testapp
  * 
  */
 const MongoClient = require("mongodb").MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 const dbname = "testapp";
-const user = "myAdmin";
-const pass = "myAdmin1";
-const url = `mongodb://${user}:${pass}@ds147225.mlab.com:47225/testapp`;
+const user = "myadmin";
+const pass = "myadmin1";
+const url = `mongodb://${user}:${pass}@ds251804.mlab.com:51804/testapp`;
 const mongoOptions = {useNewUrlParser : true};
 
 const state = {

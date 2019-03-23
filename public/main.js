@@ -96,6 +96,7 @@ $(document).ready(() => {
                     deleteTodo(data.document,ids.listItemID,ids.deleteID);
                     
                 }
+
             }
             resetTodosInput();
             
